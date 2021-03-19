@@ -42,7 +42,7 @@ class WP_Utility_Skeleton {
         echo '<div class="wrap">';
         echo '<h1>' . self::$title . '</h1>';
 
-        include __DIR__ . 'templates/utility-page.php';
+        include __DIR__ . '/templates/utility-page.php';
 
         echo '</div>';
     }
